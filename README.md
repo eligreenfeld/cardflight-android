@@ -14,7 +14,18 @@ Authentication is done through your API Keys and processing is done through the 
 Setup
 ----------
 
-Add **cardflight.jar** library in the libs folder of the project of your application. Once the jar has been added, add the required permissions in the AndroidManifest.xml file.
+### Android Studio
+
+Import the cardflight-android as a modelu by going to File > Import Module…
+Select the parth the Cardflight SDK library.Go to File > Project Structure, select your project and then click on the dependencies tab.
+Select add (+) and Module dependency.
+Choose the cardflight-android module.
+
+### Eclipse
+
+Import the cardlight-android project to your workspace. Then, in your project properties add the Cardflight library to your projects libraries. Once the library has been added, add the library add the required permissions in the AndroidManifest.xml file.
+
+Once the library has been added, add the required permissions in the AndroidManifest.xml file.
 
 ### Installation
 
