@@ -18,3 +18,21 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# Android Studio
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
